@@ -140,7 +140,7 @@ namespace Sensors.OneWire
         {
             get
             {
-                Debug.WriteLine("Humidity (%) : "+this.Humidity);
+               // Debug.WriteLine("Humidity (%) : "+this.Humidity);
                 return string.Format("{0:0.0}% RH", this.Humidity);
             }
         }
@@ -163,7 +163,7 @@ namespace Sensors.OneWire
         {
             get
             {
-                Debug.WriteLine("Temperature (C) : "+this.Temperature);
+              //  Debug.WriteLine("Temperature (C) : "+this.Temperature);
                 return string.Format("{0:0.0} °C", this.Temperature);
             }
         }
