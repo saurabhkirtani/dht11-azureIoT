@@ -6,11 +6,12 @@ You should have Visual Studio 2015 with Windows 10 SDK on a Windows 10 Machine. 
 
 ### Steps
 To get this to work, follow the steps below:
-1.  Setup IoT Hub in your Azure account. Instructions here: https://github.com/Azure/azure-iot-sdks/blob/master/doc/setup_iothub.md
 
-2.  Install the Device Explorer utility if you don't have it already, and note down the device connection string. Instructions here: https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md
+1.  Setup IoT Hub in your Azure account. [Instructions here](https://github.com/Azure/azure-iot-sdks/blob/master/doc/setup_iothub.md)
 
-3.  Paste this device connection string in [solution/Sensors.OneWire/MainPage.xaml.cs](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/solution/Sensors.OneWire/MainPage.xaml.cs#L27) - where it's written *<enter-your-device-connection-string-here>* (line 27)
+2.  Install the Device Explorer utility if you don't have it already, and note down the device connection string. [Instructions here](https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md)
+
+3.  Paste this device connection string in [solution/Sensors.OneWire/MainPage.xaml.cs](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/solution/Sensors.OneWire/MainPage.xaml.cs#L27) (line 27)
 
 4.  Clean the solution and Build the solution by going to the *Build* toolbar in your Visual Studio 2015.
 
