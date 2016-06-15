@@ -19,6 +19,12 @@ To get this to work, follow the steps below:
 
 6.  The solution should start working properly now. The data format being sent is of the form *{"DeviceId":1,"temperature":29.0,"unitOfTemp":"C","humidity":41.0,"unitOfHumidity":"%","TimeFlag":"6/13/2016 3:47:14 PM"}*
     You can see this data in the Output window of Visual Studio. You can verify that the data is being sent to Azure by using the same Device Explorer tool above. Go to the Data tab, choose the device, and click on Monitor.
-    
+
+7. Real time reporting using PowerBI [Instructions here](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/powerbi-setup.md)
+
+8. Working with C# sample SbRealTimePush, open the project in visual studio, its a normal .net console application. Right click on the project and "Rebuild", this should restore the Nuget packages and rebuild the console app.
+Replace the connection in line (program.cs) - DeviceClient.CreateFromConnectionString("HostName=XXXXXXXXXXX.azure-devices.net;DeviceId=XXXXX;SharedAccessKey=XXXXXXXXXXXXXXXXXXXXXX==", TransportType.Http1);
+with your device connection string for IOT hub.
+                     
 ### Credits
 This code is a modified version of [this Hackster project](https://www.hackster.io/porrey/dht11-dht22-temperature-sensor-077790). The code to send data to Azure has been added to this project.
