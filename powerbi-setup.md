@@ -38,10 +38,10 @@ Alternatively there is a C# console that can emulate sending the sensor data to 
 3. From right side toolbox, select humidity, minuteval and temperature.
 4. Drag minuteval to 'Axis', and remove it from 'Values'
 5. Click on Pin visual, give a name to your Report.
-![Pin To Dashboard](https://github.com/saurabhkirtani/dht11-azureIoT/tree/master/images/pbi1.png "Pin to Dashboard")
+![Pin To Dashboard](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/images/pbi1.PNG "Pin to Dashboard")
 6. Then select the name of Dashboard you want it to be pinned to, or Create a new Dashboard, and it'll get pinned to the same.
 7. This is how the report should look like, once its ready, the report will refresh by itself as and when the data comes through stream analytics.
-![Final PowerBI Report](https://github.com/saurabhkirtani/dht11-azureIoT/tree/master/images/pbi2.png "Final PowerBI Report")
+![Final PowerBI Report](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/images/pbi2.PNG "Final PowerBI Report")
 
   
 
