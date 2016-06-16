@@ -20,8 +20,8 @@ Alternatively there is a C# console that can emulate sending the sensor data to 
 6. click on Test connection - to check if the connection with the IOT hub is working.
 7. Click on "Query". Copy Paste this query in the box given
 
-       <code> SELECT Avg(temperature) as Temperatur, Avg(humidity) as Humidity, DatePart(hour,Timeflag) as hourVal, DatePart(minute,TimeFlag) as MinuteVal FROM inputtemp group by tumblingwindow(minute,1), DatePart(minute,TimeFlag), DatePart(hour,TimeFlag)</code>
-
+       <code> SELECT Avg(temperature) as Temperatur, Avg(humidity) as Humidity, Max(timeflag) as timeflag, DeviceId FROM inputtemp TIMESTAMP by timeflag group by tumblingwindow(Second,15), DeviceId</code>
+       
 8. Click on "Test" to test the query. The portal will ask for a json file through which it could test, Provide the test.json file provided in the SbRealTimePush Folder.
 9. Click on Outputs, Click on "+" sign to Add Output.
 10. Select "Sink" as "PowerBi", Do authorization with PowerBI if you have an account, else signup and authorize yourself.
