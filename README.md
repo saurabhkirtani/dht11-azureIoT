@@ -51,7 +51,7 @@ To get this to work, follow the steps below:
 
 17. Now deploy the app again to the Raspberry Pi by clicking on the Remote Machine button in the toolbar. Wait for a minute while the app is deployed.
 
-18. Once the app is deployed, go to the Windows 10 IoT Core Dashboard which you would have downloaded in step 7. Click on the *Open in Device portal* link. The browser will ask you for a username and browser. By default, the username is administrator and the password is p@ssw0rd
+18. Once the app is deployed, go to the Windows 10 IoT Core Dashboard which you would have downloaded in step 7. Click on the *Open in Device portal* link. The browser will ask you for a username and password. By default, the username is administrator and the password is p@ssw0rd
 
 19. In the portal, go to the Apps menu. From the dropdown, select the app whose name starts with *MagicOfCloud* and click on Set Default. Once the app is set as default, shutdown the Pi by clicking on the Shutdown button at the top of the portal.
 
