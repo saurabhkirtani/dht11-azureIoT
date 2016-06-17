@@ -15,9 +15,9 @@ To get this to work, follow the steps below:
 
 4.  Without giving power to the Raspberry Pi 2 yet, make sure you have connected the DHT11 sensor to the Raspberry Pi as per below. Pin mapping of Raspberry Pi 2 is [available here](https://developer.microsoft.com/en-us/windows/iot/win10/samples/pinmappingsrpi2)
 
-    VCC of DHT11 to 3.3V (Pin 1) of Raspberry Pi 2
-    Data of DHT11 to GPIO 4 (Pin 7) of Raspberry Pi 2
-    GND of DHT11 to GND (Pin 6) of Raspberry Pi 2
+    -   VCC of DHT11 to 3.3V (Pin 1) of Raspberry Pi 2
+    -   Data of DHT11 to GPIO 4 (Pin 7) of Raspberry Pi 2
+    -   GND of DHT11 to GND (Pin 6) of Raspberry Pi 2
 
 5.  Take a **cross-cable** LAN wire, and connect the Pi to your laptop.
 
@@ -39,11 +39,11 @@ To get this to work, follow the steps below:
 
 14. Uncomment these lines from the code in [solution/Sensors.OneWire/MainPage.xaml.cs] (https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/solution/Sensors.OneWire/MainPage.xaml.cs)
 
-    Line 27:    deviceClient1 = DeviceClient.CreateFromConnectionString("<enter-your-device-connection-string-here>", TransportType.Http1);
-    
-    Line 94:    var message = new Message(System.Text.Encoding.ASCII.GetBytes(messageString));
+        Line 27:    deviceClient1 = DeviceClient.CreateFromConnectionString("<enter-your-device-connection-string-here>", TransportType.Http1);
+        
+        Line 94:    var message = new Message(System.Text.Encoding.ASCII.GetBytes(messageString));
 
-    Line 95:    await deviceClient1.SendEventAsync(message);
+        Line 95:    await deviceClient1.SendEventAsync(message);
 
 15. Paste the device connection string obained from step 12 in [solution/Sensors.OneWire/MainPage.xaml.cs](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/solution/Sensors.OneWire/MainPage.xaml.cs#L27) (line 27)
 
