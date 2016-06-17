@@ -74,4 +74,9 @@ Replace the connection in line (program.cs) - DeviceClient.CreateFromConnectionS
 with your device connection string for IOT hub.
                      
 ### Credits
-This code is a modified version of [this Hackster project](https://www.hackster.io/porrey/dht11-dht22-temperature-sensor-077790). The code to send data to Azure and analyze it real-time in the cloud has been added to this project.
+This code is a modified version of [this Hackster project](https://www.hackster.io/porrey/dht11-dht22-temperature-sensor-077790). 
+
+The code to send data to Azure and analyze it real-time in the cloud has been added to this project. Contributors include:
+
+-       [Saurabh Kirtani](https://twitter.com/saurabhkirtani)
+-       [Brij Raj Singh](https://twitter.com/brijrajsingh)
