@@ -3,7 +3,7 @@ This document helps you setup a Real Time Power BI report over the data that you
 
 Alternatively there is a C# console that can emulate sending the sensor data to IOT Hub, the code for same could be found in SbRealTimePush folder.
 
-##### Create Stream analytics jobs
+##### Create Stream Analytics jobs
 1. Go to manage.windowsazure.com, find "Stream Analytics" option.
 2. Click + sign, quick create, give it a name "TemperatureJob", select Same region as that of your IOT Hub.
 3. Click on TemperatureJob, click on "Inputs"
@@ -44,4 +44,7 @@ Alternatively there is a C# console that can emulate sending the sensor data to 
 ![Final PowerBI Report](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/images/pbi2.PNG "Final PowerBI Report")
 
   
-
+### Simulation of data
+In case you want to simulate the data, you can work with the C# sample SbRealTimePush. Open the project in Visual Studio, its a normal .net console application. Right click on the project and "Rebuild", this should restore the Nuget packages and rebuild the console app.
+Replace the connection in line (program.cs) - DeviceClient.CreateFromConnectionString("HostName=XXXXXXXXXXX.azure-devices.net;DeviceId=XXXXX;SharedAccessKey=XXXXXXXXXXXXXXXXXXXXXX==", TransportType.Http1);
+with your device connection string for IOT hub.
