@@ -24,7 +24,7 @@ namespace Sensors.OneWire
         public MainPage()
         {
             this.InitializeComponent();
-            deviceClient1 = DeviceClient.CreateFromConnectionString("<enter-your-device-connection-string-here>", TransportType.Http1);
+        //    deviceClient1 = DeviceClient.CreateFromConnectionString("<enter-your-device-connection-string-here>", TransportType.Http1);
 
             _timer.Interval = TimeSpan.FromSeconds(5);
             _timer.Tick += _timer_Tick;
@@ -60,8 +60,8 @@ namespace Sensors.OneWire
                     TimeFlag = Convert.ToString(DateTime.Now)
                 };
                 var messageString = JsonConvert.SerializeObject(telemetryDataPoint);
-                var message = new Message(System.Text.Encoding.ASCII.GetBytes(messageString));
-                await deviceClient1.SendEventAsync(message);
+        //        var message = new Message(System.Text.Encoding.ASCII.GetBytes(messageString));
+        //        await deviceClient1.SendEventAsync(message);
                 Debug.WriteLine(messageString);
 
                 this.LastUpdated = DateTimeOffset.Now;
