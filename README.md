@@ -15,9 +15,9 @@ To get this to work, follow the steps below:
 
 4.  Without giving power to the Raspberry Pi 2 yet, make sure you have connected the DHT11 sensor to the Raspberry Pi as per below. Pin mapping of Raspberry Pi 2 is [available here](https://developer.microsoft.com/en-us/windows/iot/win10/samples/pinmappingsrpi2)
 
- VCC of DHT11 to 3.3V (Pin 1) of Raspberry Pi 2
- Data of DHT11 to GPIO 4 (Pin 7) of Raspberry Pi 2
- GND of DHT11 to GND (Pin 6) of Raspberry Pi 2
+    VCC of DHT11 to 3.3V (Pin 1) of Raspberry Pi 2
+    Data of DHT11 to GPIO 4 (Pin 7) of Raspberry Pi 2
+    GND of DHT11 to GND (Pin 6) of Raspberry Pi 2
 
 5.  Take a **cross-cable** LAN wire, and connect the Pi to your laptop.
 
@@ -29,10 +29,8 @@ To get this to work, follow the steps below:
 
 9. Once the solution is deployed, you will start seeing the temperature and humidity readings in the Output window in Visual Studio. The values are taken every 4 seconds.
 
-
-*Congratulations! You have completed one part of this workshop. We will now move on to the cloud part.*
-
-
+        *Congratulations! You have completed one part of this workshop. We will now move on to the cloud part.*
+        
 10. Open your Azure account by going to https://portal.azure.com . If you don't have an Azure account, you can get a free trial here: https://azure.microsoft.com/en-in/free/ (For the attendees of the Iot NCR workshop on 18 June, 2016, you'll be distributed with free Azure passes)
 
 11.  Setup IoT Hub in your Azure account. [Instructions here.](https://github.com/Azure/azure-iot-sdks/blob/master/doc/setup_iothub.md)
