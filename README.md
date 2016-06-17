@@ -13,7 +13,7 @@ To get this to work, follow the steps below:
 
 3.  In the Solution Explorer window, open Sensors.OneWire. Right click on References -> select Add Reference. In the popup, select Sensors.DHT in the Projects tab. ![Image Add reference](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/images/addref.PNG). 
 
-Rebuild the solution and then Clean the solution by going to the **Build** toolbar at the top in your Visual Studio 2015. *(If you're still getting a red sqiggly line for Sensors.Dht namespace in Mainpage.Xaml.cs , rebuild the solution to resolve)*s
+Rebuild the solution and then Clean the solution by going to the **Build** toolbar at the top in your Visual Studio 2015. *(If you're still getting a red sqiggly line for Sensors.Dht namespace in Mainpage.Xaml.cs , rebuild the solution to resolve)*
 
 4.  Without giving power to the Raspberry Pi 2 yet, make sure you have connected the DHT11 sensor to the Raspberry Pi as per below. Pin mapping of Raspberry Pi 2 is [available here](https://developer.microsoft.com/en-us/windows/iot/win10/samples/pinmappingsrpi2)
 
