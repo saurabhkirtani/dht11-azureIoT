@@ -32,7 +32,7 @@ Rebuild the solution and then Clean the solution by going to the **Build** toolb
 
         *Congratulations! You have completed one part of this workshop. We will now move on to the cloud part.*
         
-10. Open your Azure account by going to https://portal.azure.com . If you don't have an Azure account, you can get a free trial here: https://azure.microsoft.com/en-in/free/ (For the attendees of the Iot NCR workshop on 18 June, 2016, you'll be distributed with free Azure passes)
+10. Open your Azure account by going to https://portal.azure.com . If you don't have an Azure account, you can get a free trial here: https://azure.microsoft.com/en-in/free/
 
 11.  Setup IoT Hub in your Azure account. [Instructions here.](https://github.com/Azure/azure-iot-sdks/blob/master/doc/setup_iothub.md)
 
