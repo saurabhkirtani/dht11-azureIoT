@@ -1,3 +1,9 @@
 SbRealTimePush/packages/
 SbRealTimePush/SbRealTimePush/obj/
 SbRealTimePush/SbRealTimePush/bin/
+solution/Sensors.OneWire/obj/
+solution/Sensors.Dht/ARM/
+solution/Sensors.OneWire/bin/
+solution/.vs/
+solution/ARM/
+solution/

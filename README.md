@@ -64,7 +64,7 @@ Rebuild the solution and then Clean the solution by going to the **Build** toolb
 
 23. The data is now being sent to Azure. You can verify that the data is being sent to Azure by using the same Device Explorer tool above. Go to the Data tab, choose the device, and click on Monitor. The data format being sent is of the form *{"DeviceId":1,"temperature":29.0,"unitOfTemp":"C","humidity":41.0,"unitOfHumidity":"%","TimeFlag":"6/13/2016 3:47:14 PM"}*
 
-24. We'll now analyze this data real-time in the cloud, by using a Stream Analytics job and Power BI dashboards. The instructions for the setup are [given here](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/powerbi-setup.md)
+24. We'll now analyze this data real-time in the cloud, by using a Stream Analytics job and Power BI dashboards. The instructions for the setup are [given here](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/streamanalytics-PowerBISetup.md)
                      
 ### Credits
 This code is a modified version of [this Hackster project](https://www.hackster.io/porrey/dht11-dht22-temperature-sensor-077790). 

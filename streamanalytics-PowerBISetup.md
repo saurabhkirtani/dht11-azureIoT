@@ -8,15 +8,8 @@ Alternatively there is a C# console that can emulate sending the sensor data to 
 2. Click + sign, quick create, give it a name "TemperatureJob", select Same region as that of your IOT Hub.
 3. Click on TemperatureJob, click on "Inputs"
 4. click + sign to add new Input.
-5. Name it "InputTemp", take all these settings from the IOT hub settings, Connection strings
-
-        a. subscription - Provide IOT hub settings manually.
-        b. IOT Hub - Use the name of your IOT Hub
-        c. IOT Hub shared access policy name
-        d. IOT Hub policy Key 
-        e. IOT Hub consumer group - Leave empty
-        f. Event Serialization Format - JSON
-        g. Encoding - UTF8
+5. Select option "Data Stream" , click Next Select "IoT Hub Preview", give an input Alias name like "inputtemp".
+In subscription select "Use IoT hub from current subscription", choose your IoT hub name, Leave the "consumer group" option empty.
 6. click on Test connection - to check if the connection with the IOT hub is working.
 7. Click on "Query". Copy Paste this query in the box given
 
