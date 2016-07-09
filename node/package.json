@@ -1,0 +1,21 @@
+{
+  "name": "dht11",
+  "version": "0.0.1",
+  "description": "demo for DHT11 with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DHT11"
+  ],
+  "author": "Jaswant Singh Sandhu, Saurabh Kirtani",
+  "license": "ISC",
+   "dependencies": {
+    "azure-iot-device": "1.0.9",
+    "azure-iot-device-http": "1.0.10"
+    },
+  "devDependencies": {
+    "node-dht-sensor": "0.0.12"
+  }
+}
