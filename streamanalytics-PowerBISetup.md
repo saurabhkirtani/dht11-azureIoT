@@ -28,8 +28,8 @@ In subscription select "Use IoT hub from current subscription", choose your IoT 
 
 1. Go to [PowerBI.com] (http://www.powerbi.com)
 2. A dataset by the name dsRealTimeTempHumOutput should appear on the left bottom, under the 'Datasets' click on it.
-3. From right side toolbox, select humidity, minuteval and temperature.
-4. Drag minuteval to 'Axis', and remove it from 'Values'
+3. From right side toolbox, select humidity, timeflag and temperature.
+4. Drag timeflag to 'Axis', and remove it from 'Values'
 5. Click on Pin visual, give a name to your Report.
 ![Pin To Dashboard](https://github.com/saurabhkirtani/dht11-azureIoT/blob/master/images/pbi1.PNG "Pin to Dashboard")
 6. Then select the name of Dashboard you want it to be pinned to, or Create a new Dashboard, and it'll get pinned to the same.
