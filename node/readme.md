@@ -6,7 +6,7 @@ To get this to work, follow the steps below:
 
 1.  Clone this repository to your local system.
 
-2.  Without giving power to the Raspberry Pi 2 yet, make sure you have connected the DHT11 sensor to the Raspberry Pi as per below. Pin mapping of Raspberry Pi  is [available here.](https://developer.microsoft.com/en-us/windows/iot/win10/samples/pinmappingsrpi2). Pin diagram of DHT11 to Raspberry Pi can also be [found here.](https://developer.microsoft.com/en-us/windows/iot/win10/samples/gpioonewire)
+2.  Without giving power to the Raspberry Pi 2 yet, make sure you have connected the DHT11 sensor to the Raspberry Pi as per below. Pin mapping of Raspberry Pi  is [available here](https://developer.microsoft.com/en-us/windows/iot/docs/pinmappingsrpi). Pin diagram of DHT11 to Raspberry Pi can also be [found here.](https://developer.microsoft.com/en-us/windows/iot/win10/samples/gpioonewire)
 
     -   VCC of DHT11 to 3.3V (Pin 1) of Raspberry Pi 2
     -   Data of DHT11 to GPIO 4 (Pin 7) of Raspberry Pi 2
